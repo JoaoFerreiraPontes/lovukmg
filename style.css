@@ -7,4 +7,12 @@ body {
   h1 {
     color: #0057b8;
   }
+  /* Estilo para esconder a imagem por padrão */
+.imagem-escondida {
+  display: none; /* Isso torna o elemento invisível */
   
+  /* Bônus: Estilos para quando a imagem aparecer */
+  margin-top: 20px; /* Adiciona um espaço acima da imagem */
+  max-width: 80%;   /* Garante que a imagem não seja maior que a tela */
+  border-radius: 10px; /* Deixa as bordas arredondadas */
+}
