@@ -1,18 +1,13 @@
-body {
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  h1 {
-    color: #0057b8;
-  }
-  /* Estilo para esconder a imagem por padrão */
+/* Estilo para a imagem */
 .imagem-escondida {
-  display: none; /* Isso torna o elemento invisível */
-  
-  /* Bônus: Estilos para quando a imagem aparecer */
-  margin-top: 20px; /* Adiciona um espaço acima da imagem */
-  max-width: 80%;   /* Garante que a imagem não seja maior que a tela */
-  border-radius: 10px; /* Deixa as bordas arredondadas */
+  /* Propriedades para centralizar */
+  display: none;      /* Continua escondida por padrão */
+  display: block;     /* Trata a imagem como um bloco */
+  margin-left: auto;  /* Margem esquerda automática */
+  margin-right: auto; /* Margem direita automática */
+
+  /* Propriedades para o tamanho e visual */
+  max-width: 400px;   /* Define a largura máxima em 400px */
+  margin-top: 20px;   /* Mantém o espaço acima */
+  border-radius: 10px;/* Mantém as bordas arredondadas */
 }
