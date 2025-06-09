@@ -1,13 +1,26 @@
+/* Estilos gerais da página */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo do título principal */
+h1 {
+  color: #0057b8;
+}
+
 /* Estilo para a imagem */
 .imagem-escondida {
-  /* Propriedades para centralizar */
-  display: none;      /* Continua escondida por padrão */
-  display: block;     /* Trata a imagem como um bloco */
-  margin-left: auto;  /* Margem esquerda automática */
-  margin-right: auto; /* Margem direita automática */
+  /* Esta é a ÚNICA propriedade 'display' que deve estar aqui.
+     Ela garante que a imagem comece escondida. */
+  display: none; 
 
-  /* Propriedades para o tamanho e visual */
-  max-width: 400px;   /* Define a largura máxima em 400px */
-  margin-top: 20px;   /* Mantém o espaço acima */
-  border-radius: 10px;/* Mantém as bordas arredondadas */
+  /* As propriedades abaixo só terão efeito quando o JavaScript 
+     mudar o display para 'block' ao clicar no botão. */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
